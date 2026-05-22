@@ -1,0 +1,23 @@
+{
+    "Random_Forest": {
+        "melhor_f1_macro": 0.7273192318861397,
+        "parametros": {
+            "n_estimators": 400,
+            "max_depth": 7,
+            "min_samples_split": 20,
+            "min_samples_leaf": 3,
+            "max_features": "sqrt",
+            "class_weight": "balanced",
+            "max_samples": 0.8458704929670142
+        }
+    },
+    "SVM": {
+        "melhor_f1_macro": 0.7286184129795292,
+        "parametros": {
+            "C": 13.978727128487188,
+            "kernel": "poly",
+            "gamma": 0.057005407414605615,
+            "class_weight": "balanced"
+        }
+    }
+}
