@@ -1,0 +1,44 @@
+{
+    "Decision_Tree": {
+        "melhor_f1_macro": 0.6715901437703607,
+        "parametros": {
+            "ccp_alpha": 0.0,
+            "class_weight": null,
+            "max_depth": 10,
+            "min_samples_leaf": 10,
+            "min_samples_split": 10
+        }
+    },
+    "Random_Forest": {
+        "melhor_f1_macro": 0.7230946171364009,
+        "parametros": {
+            "class_weight": "balanced",
+            "max_depth": 5,
+            "min_samples_split": 20,
+            "n_estimators": 200
+        }
+    },
+    "KNN": {
+        "melhor_f1_macro": 0.6975400242865876,
+        "parametros": {
+            "knn__n_neighbors": 10,
+            "knn__p": 2,
+            "knn__weights": "distance"
+        }
+    },
+    "Logistic_Regression": {
+        "melhor_f1_macro": 0.6694831522923441,
+        "parametros": {
+            "lr__C": 0.01,
+            "lr__class_weight": "balanced"
+        }
+    },
+    "SVM": {
+        "melhor_f1_macro": 0.6931263591829067,
+        "parametros": {
+            "svm__C": 1.0,
+            "svm__class_weight": "balanced",
+            "svm__kernel": "rbf"
+        }
+    }
+}

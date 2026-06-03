@@ -1,22 +1,48 @@
 {
     "Random_Forest": {
-        "melhor_f1_macro": 0.7273192318861397,
+        "melhor_f1_macro": 0.726751412222636,
         "parametros": {
-            "n_estimators": 400,
-            "max_depth": 7,
-            "min_samples_split": 20,
-            "min_samples_leaf": 3,
-            "max_features": "sqrt",
+            "n_estimators": 350,
+            "max_depth": 9,
+            "min_samples_split": 17,
+            "min_samples_leaf": 4,
+            "max_features": "log2",
             "class_weight": "balanced",
-            "max_samples": 0.8458704929670142
+            "max_samples": 0.8197153776104209
         }
     },
     "SVM": {
-        "melhor_f1_macro": 0.7286184129795292,
+        "melhor_f1_macro": 0.7050314764833323,
         "parametros": {
-            "C": 13.978727128487188,
-            "kernel": "poly",
-            "gamma": 0.057005407414605615,
+            "C": 0.0010535425560047195,
+            "kernel": "linear",
+            "gamma": 0.0060474190520079935,
+            "class_weight": "balanced"
+        }
+    },
+    "Decision_Tree": {
+        "melhor_f1_macro": 0.6748112315069598,
+        "parametros": {
+            "max_depth": 9,
+            "min_samples_split": 19,
+            "min_samples_leaf": 18,
+            "max_features": null,
+            "class_weight": null,
+            "ccp_alpha": 5.528240850558551e-05
+        }
+    },
+    "KNN": {
+        "melhor_f1_macro": 0.6970096891711509,
+        "parametros": {
+            "n_neighbors": 19,
+            "weights": "distance",
+            "p": 1
+        }
+    },
+    "Logistic_Regression": {
+        "melhor_f1_macro": 0.6708700126585957,
+        "parametros": {
+            "C": 0.0051842720391427404,
             "class_weight": "balanced"
         }
     }
