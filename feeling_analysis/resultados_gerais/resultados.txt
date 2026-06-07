@@ -1,0 +1,42 @@
+BERTimbau F1 médio: 0.7019437083449866
+Desvio padrão: 0.019338818476830763
+
+------------------------------------------------------
+
+XLM-R F1 médio: 0.5925474874176649
+Desvio padrão: 0.038795725822784115
+
+------------------------------------------------------
+
+=== RESULTADOS FINAIS (LLaMA Few-Shot) ===
+F1 médio: 0.6996408201745561
+Desvio padrão: 0.022906500258924573
+
+------------------------------------------------------
+
+TabPFN:
+=== RESUMO DOS TESTES DE DIMENSÃO ===
+PCA com  30 colunas -> F1-Score: 0.6453 (± 0.0297)
+PCA com  50 colunas -> F1-Score: 0.6490 (± 0.0210)
+PCA com  75 colunas -> F1-Score: 0.6508 (± 0.0248)
+PCA com 100 colunas -> F1-Score: 0.6503 (± 0.0203)
+
+A melhor configuração validada foi com 75 dimensões!
+
+------------------------------------------------------
+
+Llama 3.1 (Few-Shot):
+
+F1-Score Macro: 0.4603
+F1-Score Micro: 0.4760
+
+=== Relatório Detalhado por Classe ===
+              precision    recall  f1-score   support
+
+    negativo       0.45      0.95      0.61       307
+      neutro       0.92      0.14      0.24       560
+    positivo       0.39      0.80      0.53       133
+
+    accuracy                           0.48      1000
+   macro avg       0.59      0.63      0.46      1000
+weighted avg       0.70      0.48      0.39      1000
