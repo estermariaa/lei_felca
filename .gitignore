@@ -19,4 +19,6 @@ hf_cache/
 cache_huggingface/
 
 *.npy
-EOF
+EOFnotebooks/modelo_final_escolhido/bertopic_model
+notebooks/modelo_final_escolhido/df_com_topicos.csv
+notebooks/modelo_final_escolhido/bertopic_model/
