@@ -22,3 +22,8 @@ cache_huggingface/
 EOFnotebooks/modelo_final_escolhido/bertopic_model
 notebooks/modelo_final_escolhido/df_com_topicos.csv
 notebooks/modelo_final_escolhido/bertopic_model/
+
+data/base_pronta_lftk.csv
+data/pt_comments.csv
+data/resultado_final_lftk.csv
+data/resultados_finais.csv
